@@ -7,6 +7,9 @@
 
 SOFABoot 是蚂蚁金服开源的基于 Spring Boot 的研发框架，它在 Spring Boot 的基础上，提供了诸如 Readiness Check，类隔离，日志空间隔离等等能力。在增强了 Spring Boot 的同时，SOFABoot 提供了让用户可以在 Spring Boot 中非常方便地使用 SOFA 中间件的能力。
 
+## 3.0.0 SNAPSHOT ! 🎉🎉🎉
+为了方便社区同学能够基于 SOFABoot 使用 Spring Boot 2.0 进行开发，我们拉了 3.0.0-SNAPSHOT 快照分支，该版本是基于 Spring Boot 2.0.3.RELEASE。
+
 ## 一、背景
 
 Spring Boot 是一个非常优秀的开源框架，可以非常方便地就构建出一个基于 Spring 的应用程序，但是在使用过程中，还是会遇到一些问题：
@@ -46,7 +49,7 @@ SOFABoot 从 2.4.0 版本开始支持基于 Spring 上下文隔离的模块化�
 
 ## 三、快速开始
 
-请查看文档中的[快速开始](https://github.com/alipay/sofa-boot/wiki/QuickStart)来了解如何快速上手使用 SOFABoot。
+请查看文档中的[快速开始](http://www.sofastack.tech/sofa-boot/docs/QuickStart)来了解如何快速上手使用 SOFABoot。
 
 ## 四、如何贡献
 
@@ -69,7 +72,4 @@ SOFA 的第一个版本是阿玺创造的，感谢阿玺给 SOFA 打下了坚实
  
 ## 七、文档
 
-请参考 [WIKI 中的 SOFABoot 的文档](https://github.com/alipay/sofa-boot/wiki)。
-
-
-
+请参考 [SOFABoot 官方文档](http://www.sofastack.tech/sofa-boot/docs/Home)。
